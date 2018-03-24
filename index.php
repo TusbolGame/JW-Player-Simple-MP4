@@ -1,9 +1,9 @@
 <?php
-$site = "http://localhost/test/video.php/";
+$site = "http://linksite.url/";
+$titlePage = "Title of this page";
 $url = $_POST['url'];
 $img = $_POST["img"];
 $sub = $_POST["sub"];
-$titlePage = "Title of this page";
 
 ?>
 <html>
