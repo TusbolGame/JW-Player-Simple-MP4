@@ -19,7 +19,7 @@ In the **index.php** file, edit the following information:
  - $site = "http://linksite.com/video.php/"; 
  - $titlePage = "Title of this page";
 
- ***$site*** = Change the "http://linksite.com/video.php" to the link where the file is hosted. Example "http://mp4script.com/play/video.php".
+ ***$site*** = Change the "http://linksite.com/video.php/" to the link where the file is hosted. Example "http://mp4script.com/play/video.php/".
 
 ***$titlePage*** = Change the "Title of this page" to the title you want the page to be.
 
