@@ -16,7 +16,7 @@ More info about subtitles [click here](https://support.jwplayer.com/customer/por
 ## Configuration
 In the **index.php** file, edit the following information:
 
- - $site = "http://linksite.url/"; 
+ - $site = "http://linksite.url/video.php/"; 
  - $titlePage = "Title of this page";
 
  ***$site*** = Change the "http://linksite.url/" to the link where the file is hosted. Example "http://mp4script.com/play/".
