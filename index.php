@@ -1,5 +1,5 @@
 <?php
-$site = "http://linksite.url/";
+$site = "http://linksite.com/video.php";
 $titlePage = "Title of this page";
 $url = $_POST['url'];
 $img = $_POST["img"];
@@ -42,9 +42,6 @@ $sub = $_POST["sub"];
 			  	<input type="text" placeholder="Subtitle URL" class="form-control" aria-label="<i class='fas fa-font'></i>" name="sub" aria-describedby="input-sub">
 			</div>
 
-		<!-- 	<input  placeholder="Ensira a URL direta" class="form-control" name="url"  />
-			<input  placeholder="Ensira a URL da Imagem" class="form-control" name="img" />
-			<input  placeholder="Ensira a URL da Legenda" class="form-control" name="sub" /> -->
 
 			<br>
 			<input type="submit" class="btn btn-primary btn-lg btn-block" value="Submit" title="to post" />
