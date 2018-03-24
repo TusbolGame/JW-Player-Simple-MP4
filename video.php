@@ -4,7 +4,7 @@ $v = $_GET["v"];
 $i = $_GET["i"];
 $s = $_GET["s"];
 
-// Configurações //
+// Config //
 $jwKey = "/EfUeVKETfq+V/kyoFp4EaeTEGDJQI9rC6318Q==";
 $abouttext = "Video Play"; 
 $aboutlink = "http://siteurl.com";
@@ -13,7 +13,9 @@ $aboutlink = "http://siteurl.com";
 
 <html>
 	<head>
+	<!-- Javacript JW Player	 -->
 	<script src="https://content.jwplatform.com/libraries/B0jgHhOE.js"></script>
+
 	<script type="text/javascript">jwplayer.key = "<?php $jwKey ?>";</script>
 	<style type="text/css">body{margin-left:0px;margin-top:0px;margin-right:0px;margin-bottom:0px;}</style>
 	</head>

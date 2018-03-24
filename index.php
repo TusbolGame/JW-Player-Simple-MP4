@@ -3,11 +3,13 @@ $site = "http://localhost/test/video.php/";
 $url = $_POST['url'];
 $img = $_POST["img"];
 $sub = $_POST["sub"];
+$titlePage = "Title of this page";
 
 ?>
 <html>
 	<head>
 		 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		 <title><?php echo $titlePage ?></title>
 		 <!-- CSS -->
 		 <link rel="stylesheet" href="css/bootstrap.min.css">
 		 <style>textarea{ height: 100px;}</style>
