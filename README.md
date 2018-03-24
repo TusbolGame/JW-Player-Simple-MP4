@@ -38,6 +38,7 @@ In the **video.php** file are some JW Player settings:
 ***$aboutlink***  = Link to where the user will go by clicking on About Text.
 
 ## Used
-[Bootstrap](https://getbootstrap.com/)
-[Font Awesome](https://fontawesome.com/)
-[JW Player](https://jwplayer.com)
+
+ - [Bootstrap](https://getbootstrap.com/)
+ -  [Font Awesome](https://fontawesome.com/)
+ -  [JW Player](https://jwplayer.com)
